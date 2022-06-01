@@ -1,35 +1,35 @@
-#Olga Moroz
+# Olga Moroz
 ---
-##Contact
+## Contact
 ---
 * **Location**: Russia, Fryazino
 * **Phone**: 8(926)579-75-56
 * **Email**: oliya111@yandex.ru
 * **GitHub**: OlgaMorozS
 
-##About Me
+## About Me
 ---
 
-##Skills
+## Skills
 ---
 * **HTML**
 * **CSS**
 
-##Code Example
+## Code Example
 ---
 ```
 
 ```
 
-##Experience
+## Experience
 ---
 
-##Education
+## Education
 ---
-*Course
-	+
-	+
+* **Course**
+   +
+   +
 
-##English
+## English
 ---
 **A1**
