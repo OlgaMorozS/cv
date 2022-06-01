@@ -1,1 +1,1 @@
-# rsschool-cv
+https://OLGAMOROZS.github.io/rsschool-cv/cv
