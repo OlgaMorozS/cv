@@ -10,6 +10,7 @@ ul li{
 }
 a{
 	text-decoration: none;
+	color: black;
 }
 
 /*---*/
@@ -27,12 +28,6 @@ html{
 
 
 
-/*HEADER--------------------*/
-.header{
-
-}
-
-
 /*NAV----------------------*/
 .nav__container{
 	width: 100%;
@@ -42,12 +37,12 @@ html{
 	justify-content: center;
 	position: absolute;
 	background-color: #f2a996 ;
+	position: fixed;
 }
 
 .nav__item{
 	display: inline;
 	padding: 0 30px;
-	color: ;
 	font-size: 16px;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -72,7 +67,8 @@ html{
 	flex-direction: column;
 	justify-content: center;
 	text-align: center;
-	padding-top: 100px;
+	padding-top: 100px;  ;
+	border-bottom: 2px solid #f2a996 ;
 }
 
 .header__picture{
@@ -93,3 +89,59 @@ html{
 
 /*MAIN----------------------*/
 
+.section__title{
+	background-color: #cf7761;
+	color: black;
+	opacity: .75;
+	text-align: center;
+	padding: 5px;
+
+	;
+}
+
+section{
+	width: auto;
+	border-bottom: 1px solid #cf7761;
+	height: 300px;
+	margin: 50px;
+}
+
+.content{
+	font-size: 21px;
+	line-height: 3;
+	letter-spacing: 1px;
+	padding: 5px 30px; 
+}
+
+.main__container{
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+
+
+
+/*FOOTER---------------------*/
+
+.footer__container{
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+	background-color: #cf7761;
+	width: 100%;
+	text-align: center;
+}
+
+.year{
+	font-size: 20px;
+	padding-top: 15px;
+	font-weight: 700;
+}
+
+.git__link{
+	font-size: 25px;
+	padding-top: 10px;
+	opacity: .75;
+	transition: opacity .1s linear;
+}
+.git__link:hover{
+	opacity: 1;
+}
